@@ -7,4 +7,11 @@ public:
     int info;
     node *leftchild;
     node *rightchild;
-}
+
+    // konstruktor class node
+    node()
+    {
+        leftchild = nullptr;  // membuat leftchild menjadi NULL
+        rightchild = nullptr; // membuat rightchild menjadi NULL
+    }
+};
