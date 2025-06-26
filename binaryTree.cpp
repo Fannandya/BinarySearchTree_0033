@@ -15,3 +15,9 @@ public:
         rightchild = nullptr; // membuat rightchild menjadi NULL
     }
 };
+
+class binaryTree
+{
+public:
+    node *ROOT;
+}
