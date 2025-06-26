@@ -31,5 +31,8 @@ public:
         int x;
         cout << "masukkan nilai: ";
         cin x;
+
+        // step 1: bikin memori baru untuk new node
+        node *newNode = new node();
     }
-}
+};
