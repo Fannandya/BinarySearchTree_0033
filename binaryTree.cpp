@@ -29,10 +29,11 @@ public:
     void insert()
     {
         int x;
-        cout << "masukkan nilai: ";
-        cin x;
+        cout << "masukkan nilai: " << endl;
+        cin >> x;
 
         // step 1: bikin memori baru untuk new node
         node *newNode = new node();
-    }
-};
+
+        // step 2 assign value to the data field of new node
+        newNode->info = x;
